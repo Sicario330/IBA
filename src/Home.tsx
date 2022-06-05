@@ -650,11 +650,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Ink Blot Animals</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="https://i.ibb.co/Lp3QQ1k/IMG-1604.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
